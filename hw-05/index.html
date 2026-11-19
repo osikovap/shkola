@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rhythm.k - your music-shelf </title>
+  </head>
+  <body>
+    <header>
+      <p><strong>rhythm.k</strong></p>
+      <nav aria-label="Navigation">
+        <ul>
+          <li><a href="#about">whats inside</a></li>
+          <li><a href="#plans">plans</a></li>
+          <li><a href="#subscribe">subscribe</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">rhythm.k</h1>
+        <p>
+          save your favorite songs and albums, track your listening history, and share your vinyl collection with friends.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1539375665275-f9de415ef9ac"
+          alt="vinyl records on a shelf"
+          width="600"
+        >
+      </section>
+
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">what's inside</h2>
+        <ul>
+          <li>a catalog of albums with artist, year, and cover art.</li>
+          <li>personal notes for each record.</li>
+          <li>markers: in your collection, wishlist, or listening queue.</li>
+          <li> ratings and a list of your favorite listens.</li>
+          <li>favorite releases and reminders about new editions.</li>
+        </ul>
+
+        <h3>how to get started in 3 steps</h3>
+        <ol>
+          <li>create a free account.</li>
+          <li>add your first albums to your collection.</li>
+          <li>rate them and plan your next listening session.</li>
+        </ol>
+      </section>
+
+      <section id="plans" aria-labelledby="plans-title">
+        <h2 id="plans-title">plans and features</h2>
+        <table>
+          <caption>comparison of rhythm.k subscription plans</caption>
+          <thead>
+            <tr>
+              <th scope="col">feature</th>
+              <th scope="col">basic</th>
+              <th scope="col">collector</th>
+              <th scope="col">pro version</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">monthly price</th>
+              <td>free</td>
+              <td>149</td>
+              <td>249</td>
+            </tr>
+            <tr>
+              <th scope="row">number of records</th>
+              <td>up to 50</td>
+              <td>up to 500</td>
+              <td colspan="1">unlimited</td>
+            </tr>
+            <tr>
+              <th scope="row">personal notes</th>
+              <td>yes</td>
+              <td>yes</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <th scope="row">shared access to collection</th>
+              <td>no</td>
+              <td colspan="2">yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="subscribe" aria-labelledby="subscribe-title">
+        <h2 id="subscribe-title">subscribe to rhythm.k</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </p>
+
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </p>
+
+          <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+          </p>
+
+          <p>
+            <label for="plan">Plan Selection:</label>
+            <select id="plan" name="plan">
+              <option value="basic">Basic</option>
+              <option value="collector">Collector</option>
+              <option value="pro">Pro Version</option>
+            </select>
+          </p>
+
+          <fieldset>
+            <legend>Notification Format</legend>
+            <p>
+              <input type="radio" id="notify-email" name="notifications" value="email" checked>
+              <label for="notify-email">email</label>
+            </p>
+            <p>
+              <input type="radio" id="notify-twitter" name="notifications" value="twitter">
+              <label for="notify-twitter">twitter</label>
+            </p>
+          </fieldset>
+
+          <p>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms of service</label>
+          </p>
+
+          <button type="submit">Register</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="mailto:hello@rhythm.k">hello@rhythm.k</a></p>
+      <nav aria-label="Social Media">
+        <ul>
+          <li><a href="#" aria-label="rhythm.k в Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="rhythm.k у Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="rhythm.k у Twitter">Twitter</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
